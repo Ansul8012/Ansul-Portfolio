@@ -70,17 +70,6 @@ const info = {
                 "Optimized social media campaigns for outreach and engagement."
             ]
         },
-        {
-            position: "Web Developer Intern",
-            company: "Prodigy InfoTech (Remote, India)",
-            duration: "Aug 2024 – Sep 2024",
-            image: "Prodigy.webp",
-            descriptions: [
-                "Built and optimized web applications using React.js and Tailwind CSS.",
-                "Developed responsive UI designs for seamless user experience.",
-                "Collaborated with remote teams using agile methodologies."
-            ]
-        }
     ],
     
 
