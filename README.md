@@ -1,9 +1,6 @@
 
-# DSFolio V1
+# Portfolio V1
 
-<center>
-    <img src="/public/cover.png" alt="DSFolio" />
-</center>
 
 <center>
 
@@ -17,15 +14,14 @@ https://dsfolio-v1.vercel.app/
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio-v1.git
+    git clone https://github.com/Ansul8012/Ansul-Portfolio.git
     ```
 2. Change into the project directory
     ```bash
-    cd dsfolio-v1
+    cd AnsulPortfolio
     ```
 3. Install dependencies
-    ```bash
-    yarn install 
+    npm install 
     ```
 
 ## Usage
