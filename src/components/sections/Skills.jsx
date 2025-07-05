@@ -12,6 +12,8 @@ import {
   SiExpress,
   SiMongodb,
   SiTensorflow,
+  SiDocker,
+  SiKubernetes,
 } from "react-icons/si";
 import { TbBrandVite } from "react-icons/tb";
 import { DiGithubAlt } from "react-icons/di";
@@ -35,6 +37,8 @@ function Skills() {
           { icon: <FaNodeJs />, name: "Node.js" },
           { icon: <SiExpress />, name: "Express.js" },
           { icon: <SiMongodb />, name: "MongoDB" },
+          { icon: <SiDocker />, name: "Docker" },
+          { icon: <SiKubernetes />, name: "Kubernetes" },
           { icon: <FaGitAlt />, name: "Git" },
           { icon: <DiGithubAlt />, name: "GitHub" },
         ].map((skill, index) => (

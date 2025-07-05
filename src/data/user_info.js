@@ -2,10 +2,11 @@ const info = {
     // ============ MAIN DETAILS ============
     main: {
         name: "Ansul Singh",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+        description: "I am a software engineer with expertise in full-stack web development and software engineering principles. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Web Developer",
         photo: "../photo.webp",
         email: "ansulsingh171@gmail.com",
+        resume: "../public/AnsulResume.pdf" // <-- your resume file here
     },
 
     // ============ SOCIAL LINKS ============
@@ -17,26 +18,36 @@ const info = {
 
     // ============ PROJECTS ============
     projects: [
+        // {
+		// 	title: "Draw & Classify",
+		// 	description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
+		// 	technologies: "React, Tailwind, Tensorflow",
+		// 	github: "https://github.com/dsbalico/letter-digit-shape-classification",
+        //     link: "https://letterdigitshape-classification.netlify.app/"
+		// },
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
-		},
+        title: "Viggyan – AI-Powered Smart Library System ( 🚧 building)",
+        description: "An AI-driven smart library system that allows students to register, issue, and return books using voice commands, facial recognition, and QR code verification. Also includes an admin panel for full inventory management.",
+        technologies: "Next.js, TypeScript, Tailwind CSS, Web Speech API, face-api.js, MongoDB, JWT, Nodemailer",
+        github: "https://github.com/Ansul8012/Vigyan.git", // Replace if different
+        link: "", // Add live link when available
+        status: "building"
+    },
 		{
 			title: "Taulk",
 			description: "Taulk is a simple online chatting web application where you can chat and  have a fun conversation with a group of people.",
 			technologies: "React, Tailwind, Socket.io, Node Js , Express Js , MongoDb",
 			github: "https://github.com/Ansul8012/Taulk",
-            link: "https://taulk-7.onrender.com/login"
+            link: "https://taulk-7.onrender.com/login",
+            status: "completed"
 		},
 		{
 			title: "AI POWERED CALCULATOR",
 			description: "Developed an AI-based calculator with real-time handwritten expression recognition. Integrated HTML Canvas API for drawing expressions and providing real-time evaluation.Users can draw mathematical expressions, which are recognized and computed instantly.",
 			technologies: "React, Canvas API, MathJax, mantine , Tailwind Css ,axios , Python",
 			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
+            link: "https://probability-pick.netlify.app/",
+            status: "completed"
 		},  
     ],
 
@@ -70,6 +81,7 @@ const info = {
                 "Optimized social media campaigns for outreach and engagement."
             ]
         },
+
     ],
     
 
@@ -85,7 +97,7 @@ const info = {
             title: "AWS Cloud Practitioner Essentials",
             description: "Successfully completed by Ansul Singh on 3/12/2025 under AWS Training and Certification",
             icon: "aws",
-            link: ""
+            link: "https://images.icon-icons.com/2407/PNG/512/aws_icon_146237.png"
         }
     ],
 
