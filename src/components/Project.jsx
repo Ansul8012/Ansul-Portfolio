@@ -1,7 +1,17 @@
 import { CiLink } from "react-icons/ci";
 import { motion } from "framer-motion";
+import user_info from "../data/user_info.js";
+import { MdEmail } from "react-icons/md";
 
-function Project({ title, description, technologies, link, github, status }) {
+function Project({
+  title,
+  description,
+  technologies,
+  link,
+  demo,
+  github,
+  status,
+}) {
   const isBuilding = status?.toLowerCase() === "building";
 
   return (
@@ -27,15 +37,6 @@ function Project({ title, description, technologies, link, github, status }) {
       {/* TITLE + BUILDING STATUS */}
       <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4 flex items-center gap-2">
         {title}
-        {isBuilding && (
-          <motion.span
-            className="text-xs px-2 py-1 rounded-full bg-yellow-200 text-yellow-900 dark:bg-yellow-900/20 dark:text-yellow-300"
-            animate={{ opacity: [1, 0.3, 1] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-          >
-            🚧 Building...
-          </motion.span>
-        )}
       </h3>
 
       {/* DESCRIPTION */}
@@ -54,6 +55,17 @@ function Project({ title, description, technologies, link, github, status }) {
           >
             <CiLink className="text-2xl self-center" />
             <span className="text-xs self-center">View Project</span>
+          </a>
+        )}
+        {demo && (
+          <a
+            href={demo}
+            className="flex gap-2 mt-4 hover:text-red-800 dark:hover:text-red-500 transition-all"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiLink className="text-2xl self-center" />
+            <span className="text-xs self-center">View Demo</span>
           </a>
         )}
         {github && (

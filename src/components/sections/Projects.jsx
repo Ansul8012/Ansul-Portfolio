@@ -19,6 +19,7 @@ function Projects() {
             technologies={project.technologies}
             github={project.github}
             link={project.link}
+            demo={project.demo}
           />
         ))}
       </div>

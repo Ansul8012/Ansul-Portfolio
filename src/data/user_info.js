@@ -13,7 +13,7 @@ const info = {
     socials: {
 		github: "https://github.com/Ansul8012",
 		linkedin: "https://www.linkedin.com/in/ansul-singh-91667924b/",
-		instagram: "https://instagram.com/dsbalico",
+		instagram: "https://www.instagram.com/a.n.s.h.u.l_rawat_27/",
     },
 
     // ============ PROJECTS ============
@@ -35,18 +35,20 @@ const info = {
     },
 		{
 			title: "Taulk",
-			description: "Taulk is a simple online chatting web application where you can chat and  have a fun conversation with a group of people.",
+			description: "Taulk is a simple online chatting web application where you can chat and  have a fun conversation with a group of people.It works on top of Socket.io, which allows real-time communication between users. The application is built using React for the frontend and Node.js with Express for the backend.",
 			technologies: "React, Tailwind, Socket.io, Node Js , Express Js , MongoDb",
 			github: "https://github.com/Ansul8012/Taulk",
             link: "https://taulk-7.onrender.com/login",
+            demo: "https://youtu.be/NxBJ07fiR1s?si=k4AJshP1tUz6V56i",
             status: "completed"
 		},
 		{
 			title: "AI POWERED CALCULATOR",
 			description: "Developed an AI-based calculator with real-time handwritten expression recognition. Integrated HTML Canvas API for drawing expressions and providing real-time evaluation.Users can draw mathematical expressions, which are recognized and computed instantly.",
 			technologies: "React, Canvas API, MathJax, mantine , Tailwind Css ,axios , Python",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/",
+			github: "https://github.com/Ansul8012/Ai_calci",
+            link: "https://www.example.com",
+            demo: "https://youtu.be/IiZ--IFMc6k?si=qSNDHfCl6g8zRbkO",
             status: "completed"
 		},  
     ],

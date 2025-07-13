@@ -1,6 +1,8 @@
 import { AppContext } from "../App.jsx";
 import { useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import user_info from "../data/user_info.js";
+import { MdEmail } from "react-icons/md";
 
 import ToggleTheme from "../components/ToggleTheme.jsx";
 
@@ -26,6 +28,19 @@ function Homepage() {
 
         <Hero />
         <Projects />
+        <div className="flex flex-col items-center justify-center mt-12 px-6 lg:px-24">
+          <span className="text-center text-zinc-500 dark:text-zinc-400 text-sm mt-4 mb-8 border-b-2 border-red-900">
+            I am currently building AI Smart driven Libraray .. I would love to
+            get feedback and suggestions on the project...
+          </span>
+          <a
+            href={`mailto:${user_info.main.email}`}
+            className="flex text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-30"
+          >
+            <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
+            <span>{user_info.main.email}</span>
+          </a>
+        </div>
         <EducationAndExperience />
         <Skills />
         <Contact />
